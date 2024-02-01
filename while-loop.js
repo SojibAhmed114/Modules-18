@@ -60,27 +60,42 @@
 // let numbers = 0;
 // while (numbers < 20) {
 //     // console.log(numbers);
-//     if (numbers % 2 === 0) {                   
+//     if (numbers % 2 === 0) {
 //         console.log("even number:",numbers);
 //     }
 //     numbers += 1;
 // }
 
 // // while loop odd numbers
-// let oddNumbres = 0;
-// while (oddNumbres < 10) {
-//     //console.log(oddNumbres);
-//     if (oddNumbres % 2) {
-//         console.log("odd numbers:",oddNumbres);
+// let odd1 = 0;
+// while (odd1 <= 20) {
+//     if (odd1 % 2 === 1) {
+//         console.log(odd1);
 //     }
-//     oddNumbres++;
+//     odd1++;
 // }
 
+// let odd2 = 0;
+// while (odd2 <= 20) {
+//     if (odd2 % 2 !== 0) {
+//         console.log(odd2);
+//     }
+//     odd2 += 1;
+// }
+
+//১ থেকে ৩০ পর্যন্ত  ৫ দ্বারা বিভাজ্য:
+let n = 1;
+while (n <= 30) {
+    if (n % 5 === 0) {
+        console.log(n);
+    }
+    n++;
+}
 
 //decremental loop (বড় থেকে েছোট)
 
-let decrement = 20;
-while (decrement >= 0) {
-    console.log(decrement);
-    decrement--;
-}
+// let decrement = 20;
+// while (decrement >= 0) {
+//     console.log(decrement);
+//     decrement--;
+// }
