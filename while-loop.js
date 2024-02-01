@@ -8,19 +8,15 @@
 // while (any condition) {
 //     console.log //etc statement
 //     variableName += 1; //loop variable change
-//     or 
+//     or
 //     variableName++;
-//     or 
+//     or
 //     variableName = variableName + 1;
 // }
 
-//aivabe korle kaj hotei thakbe amonki pc hang korte pare karon loop ta infinity vabe colbe.
-// const num = 5;
-// while (num < 10) {
-//     console.log("this is a while loop");
-// }
 
-// main rules of while loop
+
+// main rules of while loop (increment = ছোট থেকে বড়)
 // let tasks = 0;
 // while (tasks < 5) {
 //     console.log("please give me a good quality pizza");
@@ -40,16 +36,51 @@
 //     numbers += 1;
 // }
 
+// more while sum
+// let bus = 1;
+// let sums = 0;
+// while (bus <= 20) {
+//     console.log(bus);
+//     sums = sums + bus;
+//     console.log("sums numbers:",sums);
+//     bus++;
+// }
+
+// while loop 20 theke 50 porjonto addition
+// let myNum = 20;
+// let mySum = 0;
+// while (myNum <= 50) {
+//     mySum = mySum + myNum;
+//     myNum++;
+// }
+// console.log("20 theke 50 porjonto addition", mySum);
+
 
 // while loop even number
-let numbers = 0;
-while (numbers < 20) {
-    // console.log(numbers);
-    if (numbers %2 === 0) {                    //bujhi nai
-        console.log("even number:",numbers);
-    }
-    numbers += 1;
-}
+// let numbers = 0;
+// while (numbers < 20) {
+//     // console.log(numbers);
+//     if (numbers % 2 === 0) {                   
+//         console.log("even number:",numbers);
+//     }
+//     numbers += 1;
+// }
 
-// while loop odd numbers
-let oddNumbres
+// // while loop odd numbers
+// let oddNumbres = 0;
+// while (oddNumbres < 10) {
+//     //console.log(oddNumbres);
+//     if (oddNumbres % 2) {
+//         console.log("odd numbers:",oddNumbres);
+//     }
+//     oddNumbres++;
+// }
+
+
+//decremental loop (বড় থেকে েছোট)
+
+let decrement = 20;
+while (decrement >= 0) {
+    console.log(decrement);
+    decrement--;
+}
