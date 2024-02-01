@@ -4,7 +4,7 @@
 // Subtask-2:
 // Find all the even numbers from 78 to 98.
 
-//for loop oadd number form 61 to 100;
+//while loop odd number form 61 to 100;
 let num = 61;
 while (num <= 100) {
     if (num % 2 === 1) {
