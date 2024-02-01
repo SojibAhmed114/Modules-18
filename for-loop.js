@@ -6,24 +6,27 @@
 //second part: loop condition
 //third part: loop variable change
 
+
+//for of loop
 // const friendName = ["sojib", "shohan", "karun", "alomgir", "mizan", "riyajul"];
 // for (const friends of friendName) {
 //     console.log(friends);
 //     console.log("we are friends"); //aro onek kichu kora jabe.
 // }
-
 // let dstName = ["sojib", "shohan", "karun", "alomgir", "mizan", "riyajul"];
 // for (let Names of dstName){
 //     console.log(Names);
 // }
-
 // let shinthia = [21, 124, 124, 21, 25, 26, 25, 35, 85, 95, 74, 41];
 // for ( let subha of shinthia){
 //     console.log(subha);
 // }
 
-//same work 20 bar print
 
+
+
+
+//same work 20 bar print
 // for (let i = 0; i < 20; i++){
 //     console.log("Sinthia live in saghata");
 // }
