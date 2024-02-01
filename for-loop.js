@@ -1,11 +1,3 @@
-// for loop structure;
-// for (first part; second part; third part){
-//     loop statement
-// }
-//first part: loop variable declaration
-//second part: loop condition
-//third part: loop variable change
-
 
 //for of loop
 // const friendName = ["sojib", "shohan", "karun", "alomgir", "mizan", "riyajul"];
@@ -24,7 +16,13 @@
 
 
 
-
+// for loop structure;
+// for (first part; second part; third part){
+//     loop statement
+// }
+//first part: loop variable declaration
+//second part: loop condition
+//third part: loop variable change
 
 //same work 20 bar print
 // for (let i = 0; i < 20; i++){
